@@ -14,7 +14,7 @@ const Manage  = () => {
         
         const deleteItem =(_id) =>{
       
-          fetch('https://young-basin-35516.herokuapp.com/delete/'+_id, {
+          fetch('https://blooming-beyond-10757.herokuapp.com/delete/'+_id, {
         method: "DELETE",
         headers: {
           "Content-type": "application/json; charset=UTF-8",
