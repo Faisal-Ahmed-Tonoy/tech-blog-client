@@ -142,6 +142,8 @@ export default function AddBlog() {
      
           </div>
 </div>}
+
+<h1> This page is  available for authorized individuals  </h1>
 </section>
         
         
