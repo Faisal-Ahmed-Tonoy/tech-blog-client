@@ -50,9 +50,9 @@ fetch('https://blooming-beyond-10757.herokuapp.com/blog/'+_id)
             <li className="nav-item">
               <Link style={{fontWeight: 700}} className="nav-link active ms-1"  to="/"> Home</Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link style={{fontWeight: 700}} className="nav-link active  ms-1"  to="/login"> Login</Link>
-            </li>
+            </li> */}
             <li className="nav-item">
               <Link style={{fontWeight: 700}} className="nav-link active  ms-1"  to="/addBlog"> Admin</Link>
             </li>

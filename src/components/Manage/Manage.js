@@ -58,7 +58,7 @@ const Manage  = () => {
    
    
     return (
-     <section >  <h1> This page is  available for authorized individuals  </h1>
+     <section >  
        
        { isAdmin &&  <div>
           
@@ -75,9 +75,9 @@ const Manage  = () => {
             <li className="nav-item">
               <Link style={{fontWeight: 700}} className="nav-link active ms-1"  to="/"> Home</Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link style={{fontWeight: 700}} className="nav-link active  ms-1"  to="/login"> Login</Link>
-            </li>
+            </li> */}
             <li className="nav-item">
               <Link style={{fontWeight: 700}} className="nav-link active  ms-1"  to="/addBlog"> Admin</Link>
             </li>

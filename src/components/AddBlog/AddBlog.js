@@ -63,7 +63,7 @@ export default function AddBlog() {
   
       }
     return (
-      <section> <h1> This page is  available for authorized individuals  </h1> { isAdmin &&
+      <section>   { isAdmin &&
 <div>   
 <nav className="navbar nav-main navbar-expand-lg navbar-light bg-light navbar-color ">
       <div className="container-fluid">
@@ -77,9 +77,9 @@ export default function AddBlog() {
             <li className="nav-item">
               <Link style={{fontWeight: 700}} className="nav-link active ms-1"  to="/"> Home</Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link style={{fontWeight: 700}} className="nav-link active  ms-1"  to="/login"> Login</Link>
-            </li>
+            </li> */}
             <li className="nav-item">
               <Link style={{fontWeight: 700}} className="nav-link active  ms-1"  to="/manage"> Delete Blog</Link>
             </li>
