@@ -59,7 +59,7 @@ const Manage  = () => {
    
     return (
      <section >  
-       
+       <h1> This page is  available for authorized individuals  </h1>
        { isAdmin &&  <div>
           
  
@@ -102,7 +102,7 @@ const Manage  = () => {
       
       
       </div>}
-      <h1> This page is  available for authorized individuals  </h1>
+      
       
      </section>
         

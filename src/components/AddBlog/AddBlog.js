@@ -63,7 +63,9 @@ export default function AddBlog() {
   
       }
     return (
-      <section>   { isAdmin &&
+      <section> 
+        <h1> This page is  available for authorized individuals  </h1>
+          { isAdmin &&
 <div>   
 <nav className="navbar nav-main navbar-expand-lg navbar-light bg-light navbar-color ">
       <div className="container-fluid">
@@ -143,7 +145,7 @@ export default function AddBlog() {
           </div>
 </div>}
 
-<h1> This page is  available for authorized individuals  </h1>
+ 
 </section>
         
         
