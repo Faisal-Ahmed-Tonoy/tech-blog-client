@@ -106,7 +106,7 @@ export default function AddBlog() {
       <form    onSubmit={handleSubmit(onSubmit)}  style={{
               padding: "10px",
               width: "100%",
-              height: "500px",
+              height: "400px",
               background: "#FFFFFF",
               borderRadius: " 20px",
             }} >  
@@ -127,7 +127,7 @@ export default function AddBlog() {
           </label>
 
           <input
-          description="description" style={{height:"200px"}}
+          description="description" 
           autoComplete="off"
           {...register("description", {
             required: "Required",
