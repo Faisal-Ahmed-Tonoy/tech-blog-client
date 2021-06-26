@@ -15,7 +15,7 @@ import Footer from '../Footer/Footer';
         <Header></Header>
        <HeaderMain></HeaderMain>
        <Blog></Blog>
-       <Footer></Footer>
+    
       </div>
   
      )

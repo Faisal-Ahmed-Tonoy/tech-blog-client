@@ -97,7 +97,7 @@ export default function AddBlog() {
 <div className="col-md-12 col-sm-12"
         style={{
           backgroundImage: 'linear-gradient(to right, #4776E6, #8E54E9)',
-          height: "500px",
+          height: "900px",
           padding: " 50px 10px 10px 10px",
         }}
         class="d-flex"
@@ -106,7 +106,7 @@ export default function AddBlog() {
       <form    onSubmit={handleSubmit(onSubmit)}  style={{
               padding: "10px",
               width: "100%",
-              height: "350px",
+              height: "500px",
               background: "#FFFFFF",
               borderRadius: " 20px",
             }} >  
@@ -127,7 +127,7 @@ export default function AddBlog() {
           </label>
 
           <input
-          description="description"
+          description="description" style={{height:"200px"}}
           autoComplete="off"
           {...register("description", {
             required: "Required",
