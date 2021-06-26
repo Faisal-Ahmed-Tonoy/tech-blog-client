@@ -6,7 +6,7 @@ import BlogDetails from '../BlogDetails/BlogDetails';
 const Blog = () => {
     const [blog,setBlog] =  useState([]);
     useEffect(()=>{
-fetch('http://localhost:5000/blogs')
+fetch('https://blooming-beyond-10757.herokuapp.com/blogs')
 .then(res =>res.json())
 .then(data =>setBlog(data))
     },[])

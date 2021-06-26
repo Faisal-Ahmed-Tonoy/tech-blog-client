@@ -17,7 +17,7 @@ export default function AddBlog() {
             description: data.description,
             imageURL: imageURL
         };
-        const url = `http://localhost:5000/addBlog`;
+        const url = `https://blooming-beyond-10757.herokuapp.com/addBlog`;
         console.log(eventData);
         fetch(url,{
           method: 'POST',
@@ -32,7 +32,7 @@ export default function AddBlog() {
     const [loggedInUser,setLoggedInUser] =useContext(UserContext); 
     const [isAdmin, setIsAdmin] = useState(false);
     useEffect(() => {
-      fetch("http://localhost:5000/isAdmin", {
+      fetch("https://blooming-beyond-10757.herokuapp.com/isAdmin", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

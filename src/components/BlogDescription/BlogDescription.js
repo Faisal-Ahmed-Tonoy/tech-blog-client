@@ -24,7 +24,7 @@ const BlogDescription  = () => {
     
 
     useEffect(() =>{
-fetch('http://localhost:5000/blog/'+_id)
+fetch('https://blooming-beyond-10757.herokuapp.com/blog/'+_id)
 .then(res =>res.json())
 .then(data =>setBlog(data));
 

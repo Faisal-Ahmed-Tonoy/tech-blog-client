@@ -31,7 +31,7 @@ const Manage  = () => {
   
       }
             useEffect(() =>{ 
-                fetch('http://localhost:5000/blogs')
+                fetch('https://blooming-beyond-10757.herokuapp.com/blogs')
                 .then(res =>res.json())
                 .then(data =>setItems(data))
          
@@ -42,7 +42,7 @@ const Manage  = () => {
             const [loggedInUser,setLoggedInUser] =useContext(UserContext); 
             const [isAdmin, setIsAdmin] = useState(false);
             useEffect(() => {
-              fetch("http://localhost:5000/isAdmin", {
+              fetch("https://blooming-beyond-10757.herokuapp.com/isAdmin", {
                 method: "POST",
                 headers: {
                   "Content-Type": "application/json",
